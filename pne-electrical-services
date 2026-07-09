@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electrician Southwest Sydney | PNE Electrical Services</title>
+  <meta name="description" content="Need an electrician in Southwest Sydney? PNE Electrical Services has 5.0-star Google reviews. Call Philip now for reliable local service.">
+  <meta property="og:title" content="Electrician Southwest Sydney | PNE Electrical Services">
+  <meta property="og:description" content="Reliable local electrician for power points, downlights, fans, safety work and more across Southwest Sydney. Call PNE Electrical Services.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_AU">
+  <meta name="theme-color" content="#0b2b45">
+  <style>
+    /* Palette: deep navy, safety orange, clean white and cool grey for a premium electrical trades feel. */
+    :root {
+      --navy: #0b2b45;
+      --navy-2: #164466;
+      --orange: #f6a21a;
+      --orange-2: #d96f16;
+      --ink: #10212f;
+      --muted: #5b6874;
+      --line: #d8e2ea;
+      --soft: #f4f7fa;
+      --paper: #fbfcfd;
+      --white: #ffffff;
+      --shadow: 0 18px 44px rgba(11, 43, 69, .12);
+      --shadow-soft: 0 10px 26px rgba(11, 43, 69, .08);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      background: var(--paper);
+      padding-bottom: 82px;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1140px, calc(100% - 32px)); margin: 0 auto; }
+    .section { padding: 72px 0; background: var(--white); }
+    .section.soft { background: var(--soft); }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--orange-2);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: .78rem;
+    }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      max-width: 820px;
+      font-size: clamp(2.15rem, 6vw, 4.45rem);
+      line-height: 1.01;
+      letter-spacing: 0;
+      margin-bottom: 18px;
+    }
+    h2 {
+      font-size: clamp(1.75rem, 4vw, 2.7rem);
+      line-height: 1.08;
+      margin-bottom: 14px;
+      letter-spacing: 0;
+    }
+    h3 { font-size: 1.15rem; line-height: 1.25; margin-bottom: 8px; }
+    .lead { color: var(--muted); font-size: 1.08rem; max-width: 720px; margin-bottom: 24px; }
+    .button {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 7px;
+      border: 2px solid transparent;
+      padding: 14px 22px;
+      background: var(--orange);
+      color: #111a22;
+      font-weight: 900;
+      text-decoration: none;
+      box-shadow: 0 12px 24px rgba(217, 111, 22, .24);
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    .button.secondary {
+      background: transparent;
+      color: var(--navy);
+      border-color: var(--line);
+      box-shadow: none;
+    }
+    .button:hover { transform: translateY(-1px); box-shadow: 0 14px 28px rgba(217, 111, 22, .28); }
+    .icon {
+      width: 22px;
+      height: 22px;
+      flex: 0 0 22px;
+      display: inline-block;
+    }
+    .desktop-header {
+      display: none;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(251, 252, 253, .96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+    .desktop-header .wrap {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 900;
+      color: var(--navy);
+    }
+    .brand:before {
+      content: "";
+      width: 12px;
+      height: 28px;
+      border-radius: 3px;
+      background: var(--orange);
+      box-shadow: 10px 0 0 var(--navy);
+    }
+    .phone-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--navy);
+      font-weight: 900;
+      text-decoration: none;
+    }
+    .mobile-call {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 20;
+      padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+      background: var(--navy);
+      border-top: 1px solid rgba(255, 255, 255, .12);
+      box-shadow: 0 -12px 28px rgba(0, 0, 0, .18);
+    }
+    .mobile-call a { width: 100%; }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(115deg, rgba(11, 43, 69, .96) 0%, rgba(11, 43, 69, .91) 52%, rgba(22, 68, 102, .84) 100%),
+        repeating-linear-gradient(135deg, rgba(255, 255, 255, .08) 0 1px, transparent 1px 32px);
+      color: var(--white);
+      padding: 64px 0 54px;
+    }
+    .hero:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 5px;
+      background: linear-gradient(90deg, var(--orange), rgba(246, 162, 26, 0));
+    }
+    .hero-grid {
+      display: grid;
+      gap: 34px;
+      align-items: center;
+    }
+    .hero-card {
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .97);
+      color: var(--ink);
+      border: 1px solid rgba(255, 255, 255, .28);
+      border-top: 5px solid var(--orange);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-card:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(11, 43, 69, .05) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(11, 43, 69, .05) 1px, transparent 1px);
+      background-size: 28px 28px;
+      opacity: .45;
+    }
+    .hero-card > * { position: relative; }
+    .bolt {
+      width: 72px;
+      height: 72px;
+      border-radius: 8px;
+      background: var(--orange);
+      color: var(--navy);
+      display: grid;
+      place-items: center;
+      margin-bottom: 22px;
+    }
+    .hero-card strong { display: block; font-size: 1.35rem; margin-bottom: 8px; }
+    .hero .lead { color: rgba(255, 255, 255, .83); }
+    .hero .eyebrow { color: var(--orange); }
+    .hero-card p { color: var(--muted); margin-bottom: 18px; }
+    .hero-list {
+      display: grid;
+      gap: 10px;
+      margin: 18px 0 22px;
+      padding: 0;
+      list-style: none;
+    }
+    .hero-list li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .hero-list li:before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      margin-top: 8px;
+      border-radius: 50%;
+      background: var(--orange);
+      flex: 0 0 auto;
+    }
+    .trust-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      background: rgba(255, 255, 255, .1);
+      border-radius: 999px;
+      font-weight: 800;
+      color: var(--white);
+      font-size: .92rem;
+      backdrop-filter: blur(8px);
+    }
+    .trust-signals {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 1fr;
+    }
+    .signal, .service, .reason, .review, .faq-item {
+      background: var(--white);
+      border: 1px solid rgba(216, 226, 234, .92);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow-soft);
+    }
+    .signal {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-weight: 900;
+      color: var(--navy);
+      min-height: 86px;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+      margin-top: 26px;
+    }
+    .services { grid-template-columns: 1fr; }
+    .service .icon-wrap, .reason .icon-wrap {
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      color: var(--navy);
+      background: linear-gradient(145deg, #fff5df, #ffe2a7);
+      margin-bottom: 14px;
+    }
+    .service p, .reason p, .review p, .faq-item p { color: var(--muted); margin-bottom: 0; }
+    .mid-cta {
+      margin-top: 32px;
+      padding: 26px;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, var(--navy), var(--navy-2));
+      color: var(--white);
+      display: grid;
+      gap: 16px;
+      align-items: center;
+    }
+    .mid-cta p { margin: 0; color: rgba(255, 255, 255, .82); }
+    .reasons { grid-template-columns: 1fr; }
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      min-height: 210px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 14px;
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+    }
+    .photo-mark {
+      min-height: 150px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(145deg, rgba(11, 43, 69, .88), rgba(22, 68, 102, .74)),
+        repeating-linear-gradient(45deg, rgba(255, 255, 255, .08) 0 10px, transparent 10px 20px);
+      color: var(--orange);
+    }
+    .photo-mark .icon { width: 34px; height: 34px; }
+    figcaption { margin-top: 12px; font-weight: 900; color: var(--navy); }
+    .before-after {
+      display: inline-flex;
+      width: fit-content;
+      margin-bottom: 10px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: var(--orange);
+      color: #111a22;
+      font-size: .78rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .reviews-head {
+      display: grid;
+      gap: 18px;
+      align-items: end;
+      margin-bottom: 24px;
+    }
+    .rating-box {
+      background: linear-gradient(135deg, var(--navy), var(--navy-2));
+      color: var(--white);
+      border-radius: var(--radius);
+      padding: 22px;
+    }
+    .rating-number { font-size: 3rem; line-height: 1; font-weight: 900; display: block; }
+    .stars { color: var(--orange); letter-spacing: 0; font-weight: 900; }
+    .review small {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--orange-2);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .review-link-block {
+      margin-top: 24px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .94);
+      display: grid;
+      gap: 14px;
+      align-items: center;
+    }
+    .areas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .area-chip {
+      padding: 9px 12px;
+      border-radius: 999px;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .faq-list { display: grid; gap: 12px; margin-top: 24px; }
+    details {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    summary {
+      cursor: pointer;
+      color: var(--navy);
+      font-weight: 900;
+      list-style: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    details p { color: var(--muted); margin: 12px 0 0; }
+    .final-cta {
+      background:
+        linear-gradient(135deg, rgba(11, 43, 69, .97), rgba(22, 68, 102, .94)),
+        repeating-linear-gradient(135deg, rgba(255, 255, 255, .08) 0 1px, transparent 1px 30px);
+      color: var(--white);
+      text-align: center;
+    }
+    .final-cta p { color: rgba(255, 255, 255, .82); }
+    .big-phone {
+      display: block;
+      margin: 16px 0;
+      color: var(--orange);
+      font-size: clamp(2rem, 9vw, 4.2rem);
+      line-height: 1;
+      font-weight: 900;
+      text-decoration: none;
+    }
+    footer {
+      background: #071d2f;
+      color: rgba(255, 255, 255, .82);
+      padding: 34px 0 22px;
+      font-size: .95rem;
+    }
+    footer strong { color: var(--white); }
+    .footer-grid {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    .credit {
+      border-top: 1px solid rgba(255, 255, 255, .16);
+      padding-top: 16px;
+      font-size: .85rem;
+      color: rgba(255, 255, 255, .68);
+    }
+    .credit a { color: rgba(255, 255, 255, .88); text-decoration: none; font-weight: 800; }
+
+    @media (min-width: 720px) {
+      body { padding-bottom: 0; }
+      .desktop-header { display: block; }
+      .mobile-call { display: none; }
+      .hero { padding: 78px 0 62px; }
+      .hero-grid { grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr); }
+      .trust-signals { grid-template-columns: repeat(3, 1fr); }
+      .services { grid-template-columns: repeat(2, 1fr); }
+      .reasons { grid-template-columns: repeat(2, 1fr); }
+      .gallery { grid-template-columns: repeat(3, 1fr); }
+      .reviews-head { grid-template-columns: 1fr 220px; }
+      .review-grid { grid-template-columns: repeat(2, 1fr); }
+      .mid-cta, .review-link-block { grid-template-columns: 1fr auto; }
+      .footer-grid { grid-template-columns: 1.5fr 1fr 1fr; }
+    }
+    @media (min-width: 980px) {
+      .services { grid-template-columns: repeat(3, 1fr); }
+      .review-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Electrician",
+        "@id": "https://example.com/#business",
+        "name": "PNE Electrical Services",
+        "telephone": "+61425226313",
+        "email": "Pneelectrical@gmail.com",
+        "areaServed": [
+          "Southwest Sydney",
+          "Liverpool",
+          "Campbelltown",
+          "Camden",
+          "Narellan",
+          "Ingleburn",
+          "Leppington",
+          "Edmondson Park",
+          "Gregory Hills",
+          "Minto",
+          "Prestons"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Tori" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Professional, thorough and very experienced." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Alfio" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Fantastic to deal with, thoroughly professional and gave very good recommendations." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "shumkakin" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Connected power from the switch box to a spa on a difficult site and did a perfect job." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Brett" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Completed all the work on time and on budget." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Michael" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Professional, honest and reliable with quality work and fair pricing." }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://example.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does an electrician cost in Southwest Sydney?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The cost depends on the job, access, parts and urgency. PNE Electrical Services can talk through what you need and explain the next step clearly, so call 0425 226 313." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you help with small electrical jobs?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Small jobs such as power points, light fittings, fans and switches are common reasons local customers call, so phone PNE Electrical Services to discuss your job." }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you handle urgent electrical work?",
+            "acceptedAnswer": { "@type": "Answer", "text": "If the issue is urgent, call first so Philip can understand what is happening and advise the safest next step. For danger, smoke or exposed live wiring, turn power off if safe and call emergency services." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get advice before booking?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. A quick call is the best way to explain the issue, send details if needed and get practical advice on what may be involved." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the work guaranteed?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Quality workmanship matters on every electrical job. Call PNE Electrical Services to talk through your job and ask about the work, materials and process before booking." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="desktop-header" aria-label="Site header">
+    <div class="wrap">
+      <div class="brand">PNE Electrical Services</div>
+      <a class="phone-top" href="tel:+61425226313" aria-label="Call PNE Electrical Services on 0425 226 313">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.7c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1l-2.2 2.2Z"/></svg>
+        0425 226 313
+      </a>
+    </div>
+  </header>
+
+  <div class="mobile-call" aria-label="Sticky call button">
+    <a class="button" href="tel:+61425226313">Call Now: 0425 226 313</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Local electrician</p>
+          <h1>Reliable Electrical Work in Southwest Sydney</h1>
+          <p class="lead">PNE Electrical Services helps local homes with prompt, careful electrical work from a trusted electrician who takes pride in the finish.</p>
+          <a class="button" href="tel:+61425226313">Call PNE Electrical Services Now</a>
+          <div class="trust-strip" aria-label="Trust signals">
+            <span class="pill"><span class="stars" aria-label="5 star rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>&nbsp;5.0 Google Reviews</span>
+            <span class="pill">Locally owned and operated</span>
+            <span class="pill">Licensed electrical work</span>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="PNE Electrical Services summary">
+          <div class="bolt" aria-hidden="true">
+            <svg width="42" height="42" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2 4 14h6l-1 8 11-14h-7l0-6Z"/></svg>
+          </div>
+          <strong>Need it done properly?</strong>
+          <p>Call Philip for practical electrical help around your home.</p>
+          <ul class="hero-list">
+            <li>Power points, downlights and switches</li>
+            <li>Fans, bathroom heat lamps and sensor lights</li>
+            <li>Clear advice before work starts</li>
+          </ul>
+          <a class="button" href="tel:+61425226313">Tap to Call</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section soft" aria-label="Quick trust signals">
+      <div class="wrap trust-signals">
+        <div class="signal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 5v5.2l4 2.4-1 1.7-5-3V7h2Z"/></svg>Prompt local service</div>
+        <div class="signal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16v3H4V4Zm0 5h16v11H4V9Zm3 3v2h7v-2H7Zm0 4v2h10v-2H7Z"/></svg>Clear recommendations</div>
+        <div class="signal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4Zm-1 15-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg>Careful workmanship</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="eyebrow">Services</p>
+        <h2>Electrician services for homes across Southwest Sydney</h2>
+        <p class="lead">Whether you are upgrading a room, fixing a fault or adding power where you need it, you want the work done neatly, safely and without fuss.</p>
+        <div class="grid services">
+          <article class="service">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10v8a5 5 0 0 1-4 4.9V22h-2v-7.1A5 5 0 0 1 7 10V2Zm2 2v6a3 3 0 0 0 6 0V4H9Z"/></svg></div>
+            <h3>Power points and switches</h3>
+            <p>Add power where you actually use it. PNE Electrical Services can help with new outlets, replacements and safer everyday access.</p>
+          </article>
+          <article class="service">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Zm-4 17h8v2H8v-2Z"/></svg></div>
+            <h3>Downlights and indoor lighting</h3>
+            <p>Refresh dark rooms with better lighting. Get practical advice on placement, brightness and a clean finish.</p>
+          </article>
+          <article class="service">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm1-8v7.1a3 3 0 0 1 1.3.8l6.1-3.5 1 1.7-6.1 3.5a3.8 3.8 0 0 1 0 .8l6.1 3.5-1 1.7-6.1-3.5a3 3 0 0 1-1.3.8V22h-2v-7.1a3 3 0 0 1-1.3-.8l-6.1 3.5-1-1.7 6.1-3.5a3.8 3.8 0 0 1 0-.8L2.6 8.1l1-1.7 6.1 3.5a3 3 0 0 1 1.3-.8V2h2Z"/></svg></div>
+            <h3>Ceiling fans and heat lamps</h3>
+            <p>Make bedrooms and bathrooms more comfortable. Have fans, 3-in-1 units and heat lamps installed with care.</p>
+          </article>
+          <article class="service">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16v10H4V4Zm2 2v6h12V6H6Zm-2 10h16v2H4v-2Zm4 4h8v2H8v-2Z"/></svg></div>
+            <h3>Switchboard and circuit work</h3>
+            <p>Electrical upgrades need a steady hand. Call to discuss switchboard, circuit and power supply work for your home.</p>
+          </article>
+          <article class="service">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 2 7v2h20V7L12 2ZM4 11v9h5v-6h6v6h5v-9H4Z"/></svg></div>
+            <h3>Outdoor and sensor lighting</h3>
+            <p>Improve visibility around entries, paths and driveways. Outdoor sensor lights can make coming home feel easier and safer.</p>
+          </article>
+          <article class="service">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14l4-4h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-7 10H8v-2h4v2Zm4-4H8V7h8v2Z"/></svg></div>
+            <h3>Electrical advice and fault checks</h3>
+            <p>Not sure what the problem is? A quick call can help narrow it down and work out the most sensible next step.</p>
+          </article>
+        </div>
+        <div class="mid-cta">
+          <div>
+            <h3>Tell Philip what you need done.</h3>
+            <p>A short call is the fastest way to understand the job and plan the next step.</p>
+          </div>
+          <a class="button" href="tel:+61425226313">Call 0425 226 313</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <p class="eyebrow">Why choose us</p>
+        <h2>Electrical work without the usual worries</h2>
+        <div class="grid reasons">
+          <article class="reason">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 9.8 8 11 4.6-1.2 8-6 8-11V5l-8-3Zm4.6 7.4-5.5 5.5-2.7-2.7 1.4-1.4 1.3 1.3 4.1-4.1 1.4 1.4Z"/></svg></div>
+            <h3>You want someone who takes pride in the job</h3>
+            <p>Reviews mention neat work, professional service and a well-organised approach. That matters when the work is inside your home.</p>
+          </article>
+          <article class="reason">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10v2h3v18H4V4h3V2Zm2 2h6V3H9v1Zm-3 2v14h12V6H6Zm3 4h6v2H9v-2Zm0 4h6v2H9v-2Z"/></svg></div>
+            <h3>You need practical recommendations</h3>
+            <p>Good electrical work is not just connecting wires. You get advice on what suits the room, the budget and the way you use the space.</p>
+          </article>
+          <article class="reason">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 8V4l8 8-8 8v-4H4V8h8Z"/></svg></div>
+            <h3>You do not want chasing and no-shows</h3>
+            <p>Call direct and speak about the job clearly. It keeps things simple from the first conversation.</p>
+          </article>
+          <article class="reason">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4Zm-1 6h2v6h-2V7Zm0 8h2v2h-2v-2Z"/></svg></div>
+            <h3>You want safe, licensed electrical work</h3>
+            <p>Electrical work is not the place for shortcuts. Call a local electrician and get it handled properly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="eyebrow">Our work</p>
+        <h2>Our electrical work</h2>
+        <p class="lead">A clean finish matters when electrical work is part of your home. These spaces are ready for real job photos when available.</p>
+        <div class="grid gallery">
+          <!-- Replace the div below with: <img src="photo1.jpg" alt="PNE Electrical Services downlight installation in a Southwest Sydney home" loading="lazy"> -->
+          <figure>
+            <div class="photo-mark" role="img" aria-label="Photo placeholder for downlight installation"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Zm-4 17h8v2H8v-2Z"/></svg></div>
+            <figcaption>Downlight installation</figcaption>
+          </figure>
+          <!-- Replace the div below with: <img src="photo2.jpg" alt="New power points installed by PNE Electrical Services in Southwest Sydney" loading="lazy"> -->
+          <figure>
+            <div class="photo-mark" role="img" aria-label="Photo placeholder for power point installation"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10v8a5 5 0 0 1-4 4.9V22h-2v-7.1A5 5 0 0 1 7 10V2Z"/></svg></div>
+            <figcaption>Power point upgrade</figcaption>
+          </figure>
+          <!-- Replace the div below with: <img src="photo3.jpg" alt="Outdoor sensor light installed by PNE Electrical Services in Southwest Sydney" loading="lazy"> -->
+          <figure>
+            <div class="photo-mark" role="img" aria-label="Photo placeholder for outdoor sensor lighting"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 2 7v2h20V7L12 2ZM4 11v9h5v-6h6v6h5v-9H4Z"/></svg></div>
+            <figcaption>Outdoor sensor lighting</figcaption>
+          </figure>
+          <!-- Replace the div below with: <img src="photo4-before.jpg" alt="Before photo of old lighting before PNE Electrical Services upgrade" loading="lazy"> -->
+          <figure>
+            <span class="before-after">Before</span>
+            <div class="photo-mark" role="img" aria-label="Before photo placeholder for lighting upgrade"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16v16H4V4Zm2 2v12h12V6H6Z"/></svg></div>
+            <figcaption>Lighting before upgrade</figcaption>
+          </figure>
+          <!-- Replace the div below with: <img src="photo5-after.jpg" alt="After photo of new lighting installed by PNE Electrical Services" loading="lazy"> -->
+          <figure>
+            <span class="before-after">After</span>
+            <div class="photo-mark" role="img" aria-label="After photo placeholder for lighting upgrade"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 3 1.8 4 4.2.4-3.1 2.8.9 4.1L12 14.2l-3.8 2.1.9-4.1L6 9.4 10.2 9 12 5Z"/></svg></div>
+            <figcaption>Lighting after upgrade</figcaption>
+          </figure>
+          <!-- Replace the div below with: <img src="photo6.jpg" alt="Ceiling fan installed by PNE Electrical Services in Southwest Sydney" loading="lazy"> -->
+          <figure>
+            <div class="photo-mark" role="img" aria-label="Photo placeholder for ceiling fan installation"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm1-8v7.1a3 3 0 0 1 1.3.8l6.1-3.5 1 1.7-6.1 3.5a3.8 3.8 0 0 1 0 .8l6.1 3.5-1 1.7-6.1-3.5a3 3 0 0 1-1.3.8V22h-2v-7.1a3 3 0 0 1-1.3-.8l-6.1 3.5-1-1.7 6.1-3.5a3.8 3.8 0 0 1 0-.8L2.6 8.1l1-1.7 6.1 3.5a3 3 0 0 1 1.3-.8V2h2Z"/></svg></div>
+            <figcaption>Ceiling fan installation</figcaption>
+          </figure>
+        </div>
+        <div class="mid-cta">
+          <div>
+            <h3>Have a similar job in mind?</h3>
+            <p>Call now and explain what you want changed, fixed or upgraded.</p>
+          </div>
+          <a class="button" href="tel:+61425226313">Call Philip Today</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <div class="reviews-head">
+          <div>
+            <p class="eyebrow">Google reviews</p>
+            <h2>What Southwest Sydney locals say</h2>
+            <p class="lead">Customers mention professionalism, honest advice, reliability and workmanship they are happy to recommend.</p>
+          </div>
+          <div class="rating-box">
+            <span class="rating-number">5.0</span>
+            <span class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <p>Google Reviews</p>
+          </div>
+        </div>
+        <div class="grid review-grid">
+          <article class="review">
+            <small>Google Review</small>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <h3>Tori</h3>
+            <p>&ldquo;Philip is probably the best tradesman I've ever dealt with. Professional, thorough and very experienced.&rdquo;</p>
+          </article>
+          <article class="review">
+            <small>Google Review</small>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <h3>Alfio</h3>
+            <p>&ldquo;Philip was fantastic to deal with. Thoroughly professional and gave very good recommendations.&rdquo;</p>
+          </article>
+          <article class="review">
+            <small>Google Review</small>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <h3>shumkakin</h3>
+            <p>&ldquo;Connected power from switch box to my spa. He did a perfect job, perfect solution.&rdquo;</p>
+          </article>
+          <article class="review">
+            <small>Google Review</small>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <h3>Brett</h3>
+            <p>&ldquo;Can't recommend Philip at PNE Electrical more highly. Completed all the work on time and on budget.&rdquo;</p>
+          </article>
+          <article class="review">
+            <small>Google Review</small>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <h3>Michael</h3>
+            <p>&ldquo;Professional, honest and reliable. 100% satisfied with quality and price of the work done.&rdquo;</p>
+          </article>
+        </div>
+        <div class="review-link-block">
+          <div>
+            <h3>Used PNE Electrical Services before?</h3>
+            <p>Happy customers help local people know who they can trust. A quick review is always appreciated.</p>
+          </div>
+          <a class="button secondary" href="https://www.google.com/search?sca_esv=a22f86b7de6504ff&amp;rlz=1C1UEAD_enAU1199AU1199&amp;sxsrf=APpeQnv4af0xLU_Ha0gqdOWHQ3WiL5Cveg:1783571648565&amp;si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_xOqyJrR9xr41c6DOCmev0vmwnzHHjNHUvbHAPrfkAwj5NpaQlnKrMdxQALMhUNCzKxPaetXLOYACXmDg0EpJhtXPvN943x-m8R_FzzvJjwrVwMJkQ%3D%3D&amp;q=PNE+Electrical+Services+Reviews&amp;sa=X&amp;ved=2ahUKEwig6KyU4sSVAxWCavUHHXTBMyQQ0bkNegQIHRAF&amp;biw=1366&amp;bih=577&amp;dpr=1" target="_blank" rel="noopener">Write a Google Review</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="eyebrow">Service area</p>
+        <h2>Electrical service across Southwest Sydney</h2>
+        <p class="lead">PNE Electrical Services works with customers across Southwest Sydney, including Liverpool, Campbelltown, Camden, Narellan, Ingleburn, Leppington, Edmondson Park, Gregory Hills, Minto and Prestons.</p>
+        <div class="areas" aria-label="Service suburbs">
+          <span class="area-chip">Southwest Sydney</span>
+          <span class="area-chip">Liverpool</span>
+          <span class="area-chip">Campbelltown</span>
+          <span class="area-chip">Camden</span>
+          <span class="area-chip">Narellan</span>
+          <span class="area-chip">Ingleburn</span>
+          <span class="area-chip">Leppington</span>
+          <span class="area-chip">Edmondson Park</span>
+          <span class="area-chip">Gregory Hills</span>
+          <span class="area-chip">Minto</span>
+          <span class="area-chip">Prestons</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <p class="eyebrow">Questions</p>
+        <h2>Before you call an electrician</h2>
+        <div class="faq-list">
+          <details>
+            <summary>How much does an electrician cost in Southwest Sydney?</summary>
+            <p>The cost depends on the job, access, parts and urgency. PNE Electrical Services can talk through what you need and explain the next step clearly, so call 0425 226 313.</p>
+          </details>
+          <details>
+            <summary>Can you help with small electrical jobs?</summary>
+            <p>Yes. Small jobs such as power points, light fittings, fans and switches are common reasons local customers call, so phone PNE Electrical Services to discuss your job.</p>
+          </details>
+          <details>
+            <summary>Do you handle urgent electrical work?</summary>
+            <p>If the issue is urgent, call first so Philip can understand what is happening and advise the safest next step. For danger, smoke or exposed live wiring, turn power off if safe and call emergency services.</p>
+          </details>
+          <details>
+            <summary>Can I get advice before booking?</summary>
+            <p>Yes. A quick call is the best way to explain the issue, send details if needed and get practical advice on what may be involved.</p>
+          </details>
+          <details>
+            <summary>Is the work guaranteed?</summary>
+            <p>Quality workmanship matters on every electrical job. Call PNE Electrical Services to talk through your job and ask about the work, materials and process before booking.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="wrap">
+        <h2>Need electrical work sorted soon?</h2>
+        <p>Call PNE Electrical Services and speak directly about what you need done.</p>
+        <a class="big-phone" href="tel:+61425226313">0425 226 313</a>
+        <a class="button" href="tel:+61425226313">Call Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div><strong>PNE Electrical Services</strong><br>Local electrician for Southwest Sydney homes.</div>
+        <div><strong>Phone</strong><br><a href="tel:+61425226313">0425 226 313</a></div>
+        <div><strong>Service Area</strong><br>Southwest Sydney<br>ABN: Placeholder</div>
+      </div>
+      <div>Copyright 2026 PNE Electrical Services. All rights reserved.</div>
+      <div class="credit">Website proudly designed by <a href="#" aria-label="VisionSphere Media website placeholder">VisionSphere Media</a></div>
+    </div>
+  </footer>
+</body>
+</html>
